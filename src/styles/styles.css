@@ -354,6 +354,14 @@ header{
     margin: 0rem 2rem 2.5rem 2rem !important; 
 }
 
+.tt-about img{
+    width: 325px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 /* INVITE */
 
 
@@ -419,3 +427,4 @@ header{
     background-color: white;
     color: black;
 }
+
