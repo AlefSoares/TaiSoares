@@ -37,7 +37,7 @@
         width: 10px;
         height: 2px;
         top: 1rem;
-        left: 35%;
+        left: 39%;
         z-index: 1;
         
         background-color: transparent;
@@ -58,7 +58,7 @@
 
         width: 300px;
         position: absolute;    
-        top: 11.5%;
+        top: 12.5%;
         left: 83%;          
             
     }
@@ -191,7 +191,7 @@
     .invite{
         
         height: 70vh;
-        
+    }    
 
     .invite-container h1{
         top: 55%;

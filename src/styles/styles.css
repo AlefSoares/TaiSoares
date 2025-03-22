@@ -308,7 +308,7 @@ header{
 }
 
 .services p{
-    margin: 0rem 2.5rem;
+    margin: 0rem 2.5rem 2okrem 2.5rem;
 }
 
 .btn-services {
@@ -413,7 +413,7 @@ header{
 
 .btn-invite{
 
-    width: 300px;
+    width: 265px;
     position: absolute;    
     top: 85%;
     left: 50%;
