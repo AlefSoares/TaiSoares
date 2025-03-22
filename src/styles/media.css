@@ -143,9 +143,66 @@
     .btn-services{
         margin-top: 2rem;
     }
+    .about-container{
+        position: relative;
+        width: 95vw;
+        height: 90vh;
+        margin: 7rem 1rem;
+    }
 
+    .tt-about img{
+        width: 370px;
+        height: 565px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 20%;
+        top: 50%;         
+    }
 
+    .tt-about h1{
+        width: 100%;
+        font-size: 5rem;
+        z-index: 10;
+        position: absolute;
+        left: 48%;
+        top: 10%; 
+        transform: translate(-50%, -50%);       
 
-co
+    }
 
+    .text-about{
+        width: 400px;
+        height: 294px;
+        z-index: 10;
+        position: absolute;
+        left: 57%;
+        top: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    .text-about h2{
+        width: 90%;
+        text-align: start;
+    }
+    .text-about p{
+        width: 90%;
+        text-align: start;
+    }
+
+    .invite{
+        
+        height: 70vh;
+        
+
+    .invite-container h1{
+        top: 55%;
+        left: 57%;
+        text-align: start;
+        font-size: 4rem;
+
+    }
+
+    .btn-invite{
+        left: 19%;
+        
+    }
 }
