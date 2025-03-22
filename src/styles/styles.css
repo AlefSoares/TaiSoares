@@ -6,6 +6,7 @@
     --cinza: #958C7B;
     --cinza-escuro: #3d3d3d;
     --bege: #b6916b;
+    --bege-claro: #f1e5dd;
     --card: #E2DAD6; 
     --escuro: #373227;
     --green: #294B29;  
@@ -65,6 +66,7 @@ button{
     border-radius: 50px;
     text-decoration: none;
     transition: all 0.3s ease-in-out; 
+    cursor: pointer;
 }
 
 
@@ -110,6 +112,14 @@ header{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     color: var(--escuro);
 }
+
+.nav-li:hover {
+    color: var(--bege);
+    cursor: pointer;
+}
+
+
+
 
 
 .hamburger{
@@ -212,8 +222,9 @@ header{
 }
 
 .btn-home:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.507);
     color: black;
+    font-size: 0.95rem;
 }
 
 /* APRESENTATION */
@@ -323,7 +334,8 @@ header{
 }
 
 .btn-services:hover {
-    background-color: white;
+    background-color: var(--bege-claro);
+    font-size: .89rem;
 }
 
 
@@ -421,11 +433,13 @@ header{
     color: white;
     border: 2px solid white;
     background-color: transparent;    
+    transition: 0.2s;
         
 }
 
 .btn-invite:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.493);
     color: black;
+    font-size: 0.95rem;
 }
 
