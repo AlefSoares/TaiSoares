@@ -1,0 +1,148 @@
+:root {
+
+    --clear: #FCFAF8;
+    --cinza: #958C7B;
+    --cinza-escuro: #3d3d3d;
+    --bege: #b6916b;
+    --bege-claro: #f1e5dd;
+    --card: #E2DAD6; 
+    --escuro: #373227;
+    --green: #294B29;  
+    
+}
+
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box; 
+}
+
+li {
+    list-style: none;
+  }
+  
+img {
+    max-width: 100%;
+}
+  
+a{
+    text-decoration: none;
+}
+
+body{    
+    background: var(--clear);     
+    overflow-x: hidden;
+    
+}
+
+p{    
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: start;
+    color: var(--escuro);
+    letter-spacing: 1px;   
+}
+
+.divider {
+    width: 310px;
+    border-width: thin;
+    border-bottom: 1px solid var(--bege);
+     
+}
+
+button{
+    display: inline-block;
+    padding: 12px 24px;   
+    font-family: 'Montserrat';    
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+/* HEADER - */
+
+header{
+    position: relative;
+    user-select: none;
+    margin: 2rem 1rem;
+    
+}
+
+.logo-wrap h1{
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: 'Mrs Saint Delafield';
+    color: var(--escuro);
+}
+
+.nav-ul{
+
+    position: fixed;
+    top: 0;
+    left: 100%;
+
+    background: var(--clear);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    transition: 0.3s ease;
+    text-transform: uppercase;
+}
+
+.nav-ul.active{
+    left: 0;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.nav-li {
+    font-size: 1.7rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: var(--escuro);
+}
+
+.nav-li:hover {
+    color: var(--bege);
+    cursor: pointer;
+}
+
+
+.hamburger{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1em;
+    z-index: 4;
+    user-select: none;
+}
+
+.hamburger.active {
+    position: fixed;
+    top: 3em;
+    right: 2em;
+}
+
+.bar{
+    display: block;
+    width: 40px;
+    height: 2px;
+    margin: 5px auto;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    background: var(--cinza-escuro);
+}

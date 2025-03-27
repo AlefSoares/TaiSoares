@@ -10,8 +10,6 @@
     --card: #E2DAD6; 
     --escuro: #373227;
     --green: #294B29;  
-
-
     
 }
 
@@ -50,8 +48,8 @@ p{
     letter-spacing: 1px;   
 }
 
-.divider {
-    width: 310px;
+.divider-v {
+    width: 320px;
     border-width: thin;
     border-bottom: 1px solid var(--bege);
      
@@ -267,18 +265,18 @@ header{
 
 
 .p-apresentation p{
-    margin: 3rem 2.5rem;
+    margin: 3rem 2rem;
 }
 
 
 .jobs-apresentation h2 {
-    width: 90%;
+    text-align: center;
     font-family: 'Cousine' ;
     font-weight: 400;
     letter-spacing: 5px;
     font-size: 1rem;
     color: var(--escuro);    
-    margin: 4rem 1rem 0rem 2rem;
+    margin: 4rem 1rem 0rem 1rem;
 }
 
 .services{
@@ -287,6 +285,18 @@ header{
     justify-content: center;
     align-items: center;   
     margin: 2rem; 
+}
+
+.serv-title{
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 500;
+    color: var(--cinza);
+    margin: 1rem 1rem;    
+    text-align: center;
+
 }
 
 
@@ -299,24 +309,22 @@ header{
     
 }
 
-.services h1{
+
+.nupcial h1,
+.maternidade h1{
     font-size: 35px;
     font-family: 'Playfair Display';
     font-style: italic;
     font-weight: 500;
     color: var(--cinza);
-    margin: 1rem 2rem;    
+    margin: 1rem .5rem;    
     text-align: start;
     
 }
 
 .services p{
-    
-    margin: 0rem 2rem 2.5rem 2rem; 
-}
-
-.services p{
-    margin: 0rem 2.5rem 2rem 2.5rem;
+    width: 95%;
+    margin: 0rem .5rem 2rem .5rem;
 }
 
 .btn-services {
@@ -328,6 +336,7 @@ header{
     border: 2px solid var(--cinza);
     background: var(--clear);
     color: var(--cinza-escuro);
+    margin-bottom: 3rem;
 }
 
 .btn-services:hover {
@@ -440,6 +449,13 @@ header{
     font-size: 0.95rem;
 }
 
+
+
+
+
+
+
+
 /* MEDIA QUERY */
 
 @media (min-width: 900px) {
@@ -518,7 +534,7 @@ header{
         
     }
 
-    .divider{
+    .divider-v{
         width: 0%;
         height: 237px;
         border-right: 1px solid var(--bege);
@@ -539,10 +555,12 @@ header{
 
     }   
 
+   
     .nupcial{
         display: flex;
         justify-content: center;
-        align-items: center;    
+        align-items: center;
+         
     }
     
     .maternidade{
@@ -568,13 +586,14 @@ header{
         margin: 1rem 1.4rem;
     }
 
-    .services .divider {
+    .services .divider-v {
         margin-top: 2rem;
         height: 430px;
     }
 
     .btn-services{
         margin-top: 2rem;
+        margin-bottom: 4rem;
     }
     .about-container{
         position: relative;
